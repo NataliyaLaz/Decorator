@@ -13,6 +13,11 @@
 		8823B09A29019693007C45FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823B09829019693007C45FB /* Main.storyboard */; };
 		8823B09C29019693007C45FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823B09B29019693007C45FB /* Assets.xcassets */; };
 		8823B09F29019693007C45FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823B09D29019693007C45FB /* LaunchScreen.storyboard */; };
+		8823B0A729019989007C45FB /* MercedesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0A629019989007C45FB /* MercedesProtocol.swift */; };
+		8823B0A9290199CF007C45FB /* MercedesCLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0A8290199CF007C45FB /* MercedesCLA.swift */; };
+		8823B0AD29019A70007C45FB /* MercedesDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0AC29019A70007C45FB /* MercedesDecorator.swift */; };
+		8823B0AF29019E11007C45FB /* PanframeRoof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0AE29019E11007C45FB /* PanframeRoof.swift */; };
+		8823B0B129019F67007C45FB /* AlloyWheels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823B0B029019F67007C45FB /* AlloyWheels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8823B09B29019693007C45FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823B09E29019693007C45FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8823B0A029019693007C45FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8823B0A629019989007C45FB /* MercedesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesProtocol.swift; sourceTree = "<group>"; };
+		8823B0A8290199CF007C45FB /* MercedesCLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesCLA.swift; sourceTree = "<group>"; };
+		8823B0AC29019A70007C45FB /* MercedesDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesDecorator.swift; sourceTree = "<group>"; };
+		8823B0AE29019E11007C45FB /* PanframeRoof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanframeRoof.swift; sourceTree = "<group>"; };
+		8823B0B029019F67007C45FB /* AlloyWheels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlloyWheels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,31 @@
 				8823B09229019693007C45FB /* AppDelegate.swift */,
 				8823B09429019693007C45FB /* SceneDelegate.swift */,
 				8823B09629019693007C45FB /* ViewController.swift */,
+				8823B0AB29019A5A007C45FB /* Decorator */,
+				8823B0AA29019A53007C45FB /* Car */,
 				8823B09829019693007C45FB /* Main.storyboard */,
 				8823B09B29019693007C45FB /* Assets.xcassets */,
 				8823B09D29019693007C45FB /* LaunchScreen.storyboard */,
 				8823B0A029019693007C45FB /* Info.plist */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		8823B0AA29019A53007C45FB /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				8823B0A629019989007C45FB /* MercedesProtocol.swift */,
+				8823B0A8290199CF007C45FB /* MercedesCLA.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		8823B0AB29019A5A007C45FB /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				8823B0AC29019A70007C45FB /* MercedesDecorator.swift */,
+				8823B0AE29019E11007C45FB /* PanframeRoof.swift */,
+				8823B0B029019F67007C45FB /* AlloyWheels.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -140,7 +171,12 @@
 			files = (
 				8823B09729019693007C45FB /* ViewController.swift in Sources */,
 				8823B09329019693007C45FB /* AppDelegate.swift in Sources */,
+				8823B0AF29019E11007C45FB /* PanframeRoof.swift in Sources */,
 				8823B09529019693007C45FB /* SceneDelegate.swift in Sources */,
+				8823B0AD29019A70007C45FB /* MercedesDecorator.swift in Sources */,
+				8823B0B129019F67007C45FB /* AlloyWheels.swift in Sources */,
+				8823B0A9290199CF007C45FB /* MercedesCLA.swift in Sources */,
+				8823B0A729019989007C45FB /* MercedesProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
